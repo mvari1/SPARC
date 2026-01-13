@@ -1,0 +1,35 @@
+# Ignore almost everything by default
+*
+
+# But keep our precious source files
+!*.v
+!*.sv
+!*.vh     # Verilog headers if you use them
+!*.vhd    # If you ever add any VHDL
+!*.tcl
+!*.xdc    # Constraints (very important!)
+!*.xci    # IP cores definitions (optional but usually wanted)
+!*.bd     # Block design files (if you use IP integrator)
+!scripts/     # If you put TCL scripts in a scripts/ folder
+!src/         # Common source folder
+!hdl/         # Another common name
+
+# Also keep this very file!
+!.gitignore
+
+# Common Vivado trash (just in case something sneaks through)
+.Xil/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.jou
+*.log
+*.str
+*.rpt
+*.xml
+*.bit
+*.bin
+usage_statistics_webtalk.*
+vivado*.backup*
