@@ -1,0 +1,3 @@
+[submodule "hw/SPARC_PL"]
+	path = hw/SPARC_PL
+	url = https://github.com/mvari1/SPARC_PL.git
